@@ -25,6 +25,26 @@ Steps to Reproduce:
 ### Conclusion
 Addressing these deposit and withdrawal issues will improve the overall reliability and user experience of the website's financial transactions, preventing potential errors and providing clear feedback to users during the process.
 ## JIRA UserStories
+### User Story 1: Customer Login 
+As a customer, I want to easily log in to the XYZ website using my unique credentials. This will allow me to access personalized features and make the overall user experience more convenient.
+### User Story 2: Character Selection
+As a customer, I want the ability to specifically select "Hermione Granger" from the drop-down menu after successfully logging into the XYZ website.
+### User Story 3: Transaction Details
+As Hermione Granger, I want to access a dedicated page on the XYZ website that provides options such as transactions, deposits, and withdrawals after selecting my character. Additionally, I want to click on the "Transactions" option and view a detailed list that includes information like date, amount, and more.
+### User Story 4: Deposit
+As Hermione Granger, I want to have a straightforward process to deposit funds on the XYZ website. I want to click on the "Deposit" option, be prompted to enter a value for the deposit, and then proceed to complete the deposit.
+### User Story 5: WithDrawl
+As Hermione Granger, I want a seamless process to withdraw funds on the XYZ website. I want to click on the "Withdrawal" option, be prompted to enter a value for the withdrawal, and then proceed to complete the withdrawal.
+### User Story 6: Bank Manager Login
+As a bank manager, I want to access the XYZ website with ease using my designated bank manager credentials. Once logged in, I expect to see options such as "Add Customer," "Open Account," and "Customers" to efficiently manage and oversee banking operations.
+### User Story 7: Add Customers 
+As a bank manager, I want to efficiently add new customers to the XYZ bank system. I expect to click on the "Add Customer" option, be prompted to enter essential details such as first name, last name, and post code, and then click the "Add Customer" button to successfully record the customer information.
+### User Story 8: Open an account
+As a bank manager, I want to efficiently open new accounts for customers on the XYZ website. I expect to click on the "Open Account" option, be prompted to select a customer name and currency from drop-down menus, and then click the "Process" button to successfully open the account.
+### User Story 9: Customer Details
+As a bank manager, I want to efficiently view and manage customer information on the XYZ website. I expect to click on the "Customers" option and see a comprehensive list that includes customer details such as first name, last name, and post code.
+### User Story 10: Delete Customer
+As a bank manager, I want to efficiently manage customer records on the XYZ website. I expect to click on the "Customers" option, view a list of all customers, and have the ability to delete a customer by clicking the "Delete" button next to their name.
 ## Load Performance Testing on JMETER
 1.Main-Page
  ![Main_Page](https://github.com/Aysel2003/Comprehensive_Banking_Project/assets/151445499/f5df8bbd-878b-4093-a850-3ebd219f7924)
