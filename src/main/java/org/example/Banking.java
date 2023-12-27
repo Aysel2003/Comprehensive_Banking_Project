@@ -34,6 +34,12 @@ public class Banking{
         yourname.selectByValue("1");
         WebElement second = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/form/button")));
         second.click();
+        WebElement eleven = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[3]/button[2]")));
+        eleven.click();
+        WebElement twelve = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/div/input")));
+        twelve.sendKeys("-987");
+        WebElement thirteen = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/button")));
+        thirteen.click();
     }
 
     @Test (priority = 2)
@@ -45,13 +51,14 @@ public class Banking{
         fourth.click();
     }
 
+
     @Test (priority = 3)
     public void WithDrawl() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(45));
         WebElement eight = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[3]/button[3]")));
         eight.click();
         WebElement nine = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/div/input")));
-        nine.sendKeys("1000");
+        nine.sendKeys("100000");
         WebElement ten = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div/div[2]/div/div[4]/div/form/button")));
         ten.click();
     }
